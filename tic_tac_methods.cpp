@@ -30,23 +30,23 @@ void printBoard(char b[3][3]) {
 bool checkWin(char b[3][3], char turn) {
 	//check diagonals if they are the same characters
 	if (b[0][0] == turn && b[1][1] == turn && b[2][2] == turn) {
-		cout << turn << " IS THE WINNER!!!" << endl;
+		cout << turn << " Is the winner!" << endl;
 		return true;
 	}
 	else if (b[2][0] == turn && b[1][1] == turn && b[0][2] == turn) {
-		cout << turn << " IS THE WINNER!!!" << endl;
+		cout << turn << " Is the winner!" << endl;
 		return true;
 	}
 
 	for (int i = 0; i < 3; i++) {
 		//check rows if they are same
 		if (b[i][0] == turn && b[i][1] == turn && b[i][2] == turn) {
-			cout << turn << " IS THE WINNER!!!" << endl;
+			cout << turn << " Is the winner!" << endl;
 			return true;
 		}
 		//check cols if they are the same
 		else if (b[0][i] == turn && b[1][i] == turn && b[2][i] == turn) {
-			cout << turn << " IS THE WINNER!!!" << endl;
+			cout << turn << " Is the winner!" << endl;
 			return true;
 		}
 	}
