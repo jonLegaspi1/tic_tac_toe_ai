@@ -27,4 +27,4 @@ cd tic_tac_toe_ai
 ## Planned features to be implemented
 1. Adding a menu for various options that player can choose. These would include: Difficulty setting, view running score against AI, etc.
 2. Diffculty Setting: Before a game plays, player chooses 0-9 to determine how perfectly the AI plays, which would be giving a varying factor of randomness to the AI moves.
-3. Porting the 
+3. Porting code to utilize WebAssembly so that anyone can run the program through an HTML page (where it also interacts with JavaScript). 
