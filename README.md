@@ -19,6 +19,11 @@ cd tic_tac_toe_ai
 3. Run the executable
 `./tictac`
 
+**Windows using Visual Studio** 
+1. Create a new empty C++ project.
+2. Download and add these as source files
+3. Run project (uncomment system("pause") if you want do not want the console to close)
+
 ## Planned features to be implemented
 1. Adding a menu for various options that player can choose. These would include: Difficulty setting, view running score against AI, etc.
 2. Diffculty Setting: Before a game plays, player chooses 0-9 to determine how perfectly the AI plays, which would be giving a varying factor of randomness to the AI moves.
