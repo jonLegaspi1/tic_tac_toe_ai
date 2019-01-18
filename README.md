@@ -3,7 +3,7 @@ A tic tac toe game that utilizes the minimax algorithm to simulate artificial in
 The minimax algorithm is a backtracking algorithm used in game theory to find the optimal move a player should make. This assumes that the other player also plays optimally. In a game of two players, one is a "maximizer" and the other is a "minimizer". The maximizer will try to achieve the highest possible score, and the minimizer the lowest possible score. This game assumes has the AI as the maximizer and the player (you) as the minimizer. When a player makes a move, there are several paths that the game can follow in. This is best represented through a perfect binary tree. The final children of the bottom nodes have a value assigned to them. Since there are only three possible outcomes to this game (AI win, player win, draw), the values of these nodes have a +10(AI win), -10(player win), and 0 (draw). The program goes through each possible scenario, and will choose spots based on the greatest score. If it detects a +10 scenario, it will choose that spot. If it is deciding between a -10 or 0 scenario, it will choose the best possible outcome, which is drawing.
 ## How to compile and run
 
-**MacOS/ Ubuntu / Windows 10 using mingw**: 
+**MacOS/ Linux / Windows 10 using mingw**: 
 Open a terminal/bash window and change to a desirable directory to save the program
 
 1. Clone the repository and change into its directory
